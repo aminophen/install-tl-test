@@ -22,7 +22,7 @@ TEXMFVAR /.texlive/texmf-var
 binary_win32 1
 EOF
 echo y | ./install-tl-windows.bat -profile ./fullinst.profile -repository http://mirror.ctan.org/systems/texlive/tlnet/
-tlmgr.bat init-usertree
+#tlmgr.bat init-usertree
 cd ../..
 echo "remove the install directory"
 rm -rf $DIRNAME
